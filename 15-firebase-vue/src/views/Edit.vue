@@ -85,7 +85,6 @@ export default {
   },
   methods: {
     async getProject() {
-      
       const res = await fetch(
         `https://crud-vue-c1a3a-default-rtdb.europe-west1.firebasedatabase.app/projects/${this.id}.json`
       );
